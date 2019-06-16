@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="#FFC107">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFFFFF"/>
+    <LinearLayout
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_gravity="center"
+            android:layout_weight="6"
+            android:id="@+id/tv_name_place"
+            android:layout_width="0dp"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"
+            android:text="Park Hang Seo"
+            android:textColor="#000"
+            />
+        <TextView
+            android:background="@drawable/red_round_bg"
+            android:visibility="invisible"
+            android:id="@+id/tv_promotion"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#FF5722"
+            android:text="ABC"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:text=""
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFFFFF"/>
+
+
+
+
+</LinearLayout>
